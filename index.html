@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header" role="banner">		
+		<div class="main-nav">
+			<div class="container">
+				<div class="header-top">
+					<div class="pull-right social-icons">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+				<div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                            </div>
+                            </div>
+		        <div class="row">	        		
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		                <a class="navbar-brand" href="index.html">
+		                </a>                    
+		            </div>
+		            <div class="collapse navbar-collapse">
+		                <ul class="nav navbar-nav navbar-right">                 
+		                    <li class="scroll active"><a href="#home">Home</a></li>
+		                    <li class="scroll"><a href="#about">About Us</a></li>                         
+		                    <li class="scroll"><a href="#shop">Shop</a></li>
+		                    <li class="scroll"><a href="#map">Contact</a></li>
+		                    <li class="scroll"><a href="#home"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+		                </ul>
+		            </div>
+		        </div>
+	        </div>
+        </div>                    
+    </header>
+    <!--/#header--> 
+
+    <section id="home">	
+		<div id="main-slider" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+					<div class="parallax-window" data-parallax="scroll" data-image-src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Stonehouse_Distillery_at_the_Distillery_District.jpg">	
+					<div id="welcome">
+					<div class="carousel-caption">
+						<h2>WELCOME TO BOOTSTRAP LIQUORS! </h2>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+    </section>
+    
+    
+	<!--/#home-->
+	
+	<section id="about">
+		<div class="about-content">	
+		           
+					<h2>About Us</h2>
+					<p>Our story began with the gathering of friends and family in our rusty basement bar. We would bring our beloved spirits, try, test, and celebrate them. For over 20 years, we travel the world and bring our best selection to you! Drink up Friends! </p>
+		
+					</div>
+	</section><!--/#about-->
+	
+  <section class="middle" data-parallax="scroll" data-image-src="https://pixabay.com/static/uploads/photo/2015/07/27/20/40/casks-863533_960_720.jpg">
+  </section>
+
+
+	<section id="shop">
+		<div class="container"> 
+						<h2 class="heading">OUR SELECTION</h2>
+						<p> We provide the finest selection of premium liquors from around the world.</p>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="shop-item">
+											<img class="img-responsive" src="img/whiskey.jpg" alt="event-image">
+										</div> <!--column-->
+									</div> <!--shop-item-->
+									<div class="col-md-3">
+										<div class="shop-item">
+											<img class="img-responsive" src="img/rum.jpg" alt="event-image">
+					                 </div> <!--column-->
+									</div> <!--shop-item-->
+									<div class="col-md-3">
+										<div class="shop-item">
+											<img class="img-responsive" src="img/vodka2.jpg" alt="event-image">
+										</div> <!--column-->
+									</div> <!--shop-item-->
+									<div class="col-md-3">
+										<div class="shop-item">
+											<img class="img-responsive" src="img/gin.jpg" alt="event-image">
+										</div> <!--column-->
+									</div> <!--shop-item-->
+								</div> <!--row-->
+				
+
+<hr>
+
+             <h2> Best Sellers</h2>  
+     <!-- LESS simple modal example -->
+  
+  
+    <div class="row">
+    <div class="itembox">
+    <div class="col-sm-3">
+<!-- image as a trigger -->
+    <a href="#myModalOne" data-toggle="modal">
+    <img src="img/whiskeystock.jpg" class="img-responsive center-block img-thumbnail" ></a>
+     <p>Size: <b>750ml</b></p>
+        <p><b> $49.99</b></p>
+        <form class="cart">
+  
+            <div class="cart-group">
+        <INPUT NAME="Qty" size=2 VALUE="1"> Qty
+<button onclick="cartSuccess();"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
+        </form>
+    </div> <!--/cart-group-->   
+    <br><br>
+    </div><!--/col-->
+    </div><!--/itembox-->
+
+
+    
+    <div class="itembox">
+    <div class="col-sm-3">
+<!-- image as a trigger -->
+    <a href="#myModalTwo" data-toggle="modal">
+    <img src="img/rumstock.jpg" class="img-responsive center-block img-thumbnail" ></a>
+     <p>Size: <b>750ml</b></p>
+        <p><b> $18.99</b></p>
+        <form class="cart">
+  
+            <div class="cart-group">
+        <INPUT NAME="Qty" size=2 VALUE="1"> Qty
+<button onclick="cartSuccess();"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
+        </form>
+    </div> <!--/cart-group-->   
+    <br><br>
+    </div><!--/col-->
+    </div><!--/itembox-->
+    
+    <div class="itembox">
+    <div class="col-sm-3">
+<!-- image as a trigger -->
+    <a href="#myModalThree" data-toggle="modal">
+    <img src="img/vodkastock.jpg" class="img-responsive center-block img-thumbnail" ></a>
+     <p>Size: <b>750ml</b></p>
+        <p><b> $12.99</b></p>
+        <form class="cart">
+  
+            <div class="cart-group">
+        <INPUT NAME="Qty" size=2 VALUE="1"> Qty
+<button onclick="cartSuccess();"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
+        </form>
+    </div> <!--/cart-group-->   
+    <br><br>
+    </div><!--/col-->
+    </div><!--/itembox-->
+    
+    <div class="itembox">
+    <div class="col-sm-3">
+<!-- image as a trigger -->
+    <a href="#myModalFour" data-toggle="modal">
+    <img src="img/ginstock.jpg" class="img-responsive center-block img-thumbnail" ></a>
+     <p>Size: <b>750ml</b></p>
+        <p><b> $16.99</b></p>
+        <form class="cart">
+  
+            <div class="cart-group">
+        <INPUT NAME="Qty" size=2 VALUE="1"> Qty
+<button onclick="cartSuccess();"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
+        </form>
+    </div> <!--/cart-group-->   
+    <br><br>
+    </div><!--/col-->
+    </div><!--/itembox-->
+</div> <!--/row-->
+    
+<!-- less simple modal -->		
+  
+  <div class="modal fade" id="myModalOne" role="dialog">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title"><b>Old Man's Whiskey</b></h3> 
+        </div> <!-- /modal-header -->
+       <div class="modal-body">
+  <img src="img/whiskeystock.jpg" width="100%" height="100%" >
+     </div> <!-- /modal-body -->
+      <div class="modal-footer">
+        <h5><b>Tried and true, this 100 proof bourbon is sure to keep your spirits ticking.</h5></b>
+        <h4>Size: <b>750ml</b></h4>
+        <h4>Price:<b> $49.99</b></h4>
+        <form>
+        <INPUT NAME="Qty" size=2 VALUE=""> Qty
+        <button onclick="cartSuccess();">Add to Cart</button>
+        </div>
+        </form>
+   
+      </div> <!-- /modal-footer -->
+      </div><!--/modal-content-->
+      </div><!--/modal-dialog-->
+      </div><!--/modal-fade-->
+
+<div class="modal fade" id="myModalTwo" role="dialog">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title"><b>Sailor Jerry Rum</b></h3> 
+        </div> <!-- /modal-header -->
+       <div class="modal-body">
+  <img src="img/rumstock.jpg" width="100%" height="100%" >
+     </div> <!-- /modal-body -->
+      <div class="modal-footer">
+        <h5><b>This 92 proof spiced Navy rum features a quintessential Sailor Jerry hula girl on the label. As the bottle is emptied, additional pin-up girls designed by Sailor Jerry are visible on the inner side of the label. </h5></b>
+        <h4>Size: <b>750ml</b></h4>
+        <h4>Price:<b> $18.99</b></h4>
+        <form>
+        <INPUT NAME="Qty" size=2 VALUE=""> Qty
+        <button onclick="cartSuccess();">Add to Cart</button>
+        </div>
+        </form>
+   
+      </div> <!-- /modal-footer -->
+      </div><!--/modal-content-->
+      </div><!--/modal-dialog-->
+      </div><!--/modal-fade-->
+
+
+<div class="modal fade" id="myModalThree" role="dialog">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title"><b>Kovak Vodka</b></h3> 
+        </div> <!-- /modal-header -->
+       <div class="modal-body">
+  <img src="img/vodkastock.jpg" width="100%" height="100%" >
+     </div> <!-- /modal-body -->
+      <div class="modal-footer">
+        <h5><b>Hailing from Brazil, this vodka provides a crisp, clean taste giving all your cockails a smooth finish.</b></h5>
+        <h4>Price:<b> $12.99</b></h4>
+        <form>
+        <INPUT NAME="Qty" size=2 VALUE=""> Qty
+        <button onclick="cartSuccess();">Add to Cart</button>
+        </div>
+        </form>
+   
+      </div> <!-- /modal-footer -->
+      </div><!--/modal-content-->
+      </div><!--/modal-dialog-->
+      </div><!--/modal-fade-->
+      
+      
+<div class="modal fade" id="myModalFour" role="dialog">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title"><b>Gordons Gin</b></h3> 
+        </div> <!-- /modal-header -->
+       <div class="modal-body">
+  <img src="img/ginstock.jpg" width="100%" height="100%" >
+     </div> <!-- /modal-body -->
+      <div class="modal-footer">
+        <h5><b>Triple-distilled, the gin contains juniper berries, coriander seeds, angelica root, liquorice, orris root, orange and lemon peel.</b></h5>
+        <h4>Size: <b>750ml</b></h4>
+        <h4>Price:<b> $1.99</b></h4>
+        <form>
+        <label for ="Qty">QTY</label> 
+        <input type="value" size=2 VALUE="" placeholder="1"> 
+        
+        <button onclick="cartSuccess();">Add to Cart</button>
+        </div>
+        </form>
+   
+      </div> <!-- /modal-footer -->
+      </div><!--/modal-content-->
+      </div><!--/modal-dialog-->
+      </div><!--/modal-fade-->
+      </div>
+      </div>
+
+
+      
+      
+      
+
+       
+        
+      
+
+    </div><!--tab content-->
+    </div> <!--container-->
+    </section> <!--/shop-->
+    
+      <section class="middle" data-parallax="scroll" data-image-src="https://c1.staticflickr.com/3/2043/1597597569_e7ba9e3935_b.jpg">
+  </section>
+
+	<section id="map"> <!--/gmap_area -->
+ <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6044.921664862605!2d-73.981621!3d40.751888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf7a08608cf37be9!2sMid-Manhattan+Library!5e0!3m2!1sen!2sus!4v1468901572720" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"></iframe>
+                        </div>
+                    </div>
+                      <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h3>Boot Strap Liquors</h3>
+                                    <p>455 5th Avenue <br>
+                                    New York, NY 10016</p>
+                                    <p>Phone:212-898-2847 <br>
+                                    Email Address:info@domain.com</p>
+                                </address>
+                                
+                                <address>
+                                    Mon-Thurs 9AM-10PM <br>
+                                    Fri-Sat  9AM-11PM <br>
+                                    Sun 12PM-9PM
+                                </address>
+
+	</section>		
+			
+			<div class="container">
+						<div class="contact-text">
+							<h3>Contact</h3>
+						<div id="contact-section">
+							<h3>Send a message</h3>
+					    	<div class="status alert alert-success" style="display: none"></div>
+					    	<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+					            <div class="form-group">
+					                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+					            </div>
+					            <div class="form-group">
+					                <input type="email" name="email" class="form-control" required="required" placeholder="Email ID">
+					            </div>
+					            <div class="form-group">
+					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Enter your message"></textarea>
+					            </div>                        
+					            <div class="form-group">
+					                <button type="submit" class="btn btn-primary pull-right">Send</button>
+					            </div>
+					        </form>	       
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+    <!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                <p> Copyright  &copy;2016 JC @ NYPL. All Rights Reserved. </p>                
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+  
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  	<script type="text/javascript" src="js/gmaps.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="js/parallax.js"></script>
+   <script src="js/parallax.min.js"></script>
+
+
+
+
+</body>
+</html>
